@@ -8,5 +8,16 @@ Tooling:
 - Docker
 - Express
 
-# Run  in Dev 
+### Run  in Dev (Detached mode)
 
+``` docker compose -f docker-compose.dev.yml up --build -d ```
+
+### Run Prod
+
+``` docker compose -f docker-compose.yml up --build -d ```
+
+### Kill dev (Remove volumes)
+``` docker compose -f docker-compose.dev.yml down -v ```
+
+### Kill prod (Remove volumes)
+``` docker compose -f docker-compose.yml down -v ```
