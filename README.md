@@ -21,3 +21,6 @@ Tooling:
 
 ### Kill prod (Remove volumes)
 ``` docker compose -f docker-compose.yml down -v ```
+
+### Postman documentation
+ [docs](https://documenter.getpostman.com/view/21867518/2s946icXEY)
